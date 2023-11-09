@@ -36,12 +36,15 @@ const steps = [
             // When we need to show a number of
             // options to choose we create alist
             // like this
-            { value: 1, label: 'View Courses' },
-            { value: 2, label: 'Read Articles' },
+            { value: view_Courses, label: 'View Courses' },
+            { value: read_article, label: 'Read Articles' },
  
         ],
-        end: true
-    }
+        trigger: 5
+    },{
+		id: 'view_Courses'
+		 message: " list of courses given below",
+	}
 ];
 
 // Creating our own theme
